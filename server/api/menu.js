@@ -1,5 +1,6 @@
 import { getFirestore} from 'firebase-admin/firestore';
 
+/*
 import { initializeApp, getApps, cert } from 'firebase-admin/app'
 import * as serviceAccount from "../../helpers/bill-2648a-firebase-adminsdk-nhlmk-b2113d9718.json";
 
@@ -10,6 +11,7 @@ if (!apps.length) {
         credential: cert(serviceAccount)
     })
 }
+*/
 
 
 const db = getFirestore();

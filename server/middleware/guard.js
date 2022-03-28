@@ -1,7 +1,7 @@
 import {useCookie} from "h3";
 import database from '~/helpers/dbConn';
 
-/*import { initializeApp, getApps, cert } from 'firebase-admin/app'
+import { initializeApp, getApps, cert } from 'firebase-admin/app'
 import * as serviceAccount from "../../helpers/bill-2648a-firebase-adminsdk-nhlmk-b2113d9718.json";
 
 const apps = getApps();
@@ -10,7 +10,7 @@ if (!apps.length) {
     initializeApp({
         credential: cert(serviceAccount)
     })
-}*/
+}
 database();
 
 
