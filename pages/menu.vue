@@ -13,4 +13,8 @@
 
 const {data, error} = await useAsyncData('menu', () => $fetch('/api/menu'));
 
+useMeta({
+  title: 'Меню'
+})
+
 </script>

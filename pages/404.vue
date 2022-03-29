@@ -16,3 +16,10 @@
 }
 
 </style>
+
+<script setup>
+useMeta({
+  title: 'Ошибка 404. Данной страницы не существует'
+})
+
+</script>

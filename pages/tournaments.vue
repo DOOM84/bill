@@ -296,6 +296,8 @@ const content =
       }
     ]
 
-
+useMeta({
+  title: 'Турниры'
+})
 
 </script>

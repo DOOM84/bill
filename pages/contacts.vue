@@ -25,4 +25,8 @@
 
 const {data, error} = await useAsyncData('contacts', () => $fetch('/api/contacts'));
 
+useMeta({
+  title: 'Контакты'
+})
+
 </script>
