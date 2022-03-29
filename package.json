@@ -12,10 +12,10 @@
     "sass-loader": "^12.6.0"
   },
   "dependencies": {
-    "@jobinsjp/vue3-datatable": "^1.0.14",
-    "aos": "^2.3.4",
-    "firebase": "^9.6.9",
+    "firebase": "^9.6.10",
     "firebase-admin": "^10.0.2",
+    "@jobinsjp/vue3-datatable": "^1.0.15",
+    "aos": "^2.3.4",
     "formidable": "^3.2.1",
     "sharp": "^0.30.3",
     "vanilla-back-to-top": "^7.2.1",
@@ -25,5 +25,6 @@
     "vue3-picture-swipe": "^3.0.5",
     "vueperslides": "^3.3.2",
     "yup": "^0.32.11"
+
   }
 }

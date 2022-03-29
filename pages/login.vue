@@ -1,5 +1,5 @@
 <template>
-  <section class="cont pb-2 pt-2">
+  <section class="withFooter cont pb-2 pt-2">
 
     <div>
       <h3 class="pl-1">{{ showMode }}</h3>
@@ -181,6 +181,10 @@ async function authorize() {
     transition: 0.3s;
   }
 
+}
+
+.withFooter{
+  height: 53vh;
 }
 
 </style>
