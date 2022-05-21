@@ -44,7 +44,7 @@ useMeta({
 
 const infoToUpdate = ref({});
 
-const {data, error} = await useAsyncData('adminContacts', () => $fetch('/api/admin/contacts/index'));
+const {data, error} = await useAsyncData('adminContacts', () => $fetch('/api/admin/contacts'));
 
 if(data.value.info){
   infoToUpdate.value = {...data.value.info}

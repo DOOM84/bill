@@ -135,7 +135,7 @@ function filter(fTerm, dir) {
   toFilter.value = true;
 }
 
-const {data, error} = await useAsyncData('users', () => $fetch('/api/admin/users/index'));
+const {data, error} = await useAsyncData('adminUsers', () => $fetch('/api/admin/users'));
 
 const userToUpdate = ref({customClaims: {admin: false}, disabled: false});
 const showDlg = ref(false);
@@ -170,7 +170,7 @@ async function storeItem() {
 
     if (mode.value === 'edit') {
       const {result} = await $fetch('/api/admin/users/edit', {
-        method: 'POST',
+        method: 'PUT',
         body: formData,
       })
       const ind = data.value.users.findIndex(item => item.uid === result.uid);
@@ -236,7 +236,7 @@ async function removeItem(userId) {
       $showToast('Обработка...', 'info', 2000);
 
       const {id} = await $fetch('/api/admin/users/remove', {
-        method: 'POST',
+        method: 'DELETE',
         body: formData,
       })
 

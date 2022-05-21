@@ -16,7 +16,7 @@
 
     <AdminModalWrap @closeDlg="closeModal" mWidth="1000px" origWidth="100%" :showDlg="showDlg">
       <div v-if="mode === 'edit'" class="flexCentered">
-        <img class="pic-thumb" :src="pictureToUpdate.image" alt="">
+        <img class="pic-thumb" :src="pictureToUpdate.thumb" alt="">
       </div>
 
       <div v-else class="form-group">
@@ -63,7 +63,7 @@
 
       <template #rows="{row}">
         <table-body>
-            <img class="pic-thumb" :src="row.image" alt="">
+            <img class="pic-thumb" :src="row.thumb" alt="">
         </table-body>
         <table-body>
           {{ row.status ? 'Да': 'Нет' }}
@@ -95,7 +95,7 @@ useMeta({
 })
 
 
-const {data, error} = await useAsyncData('adminGallery', () => $fetch('/api/admin/gallery/index'));
+const {data, error} = await useAsyncData('adminGallery', () => $fetch('/api/admin/gallery'));
 
 const filtering = ref([]);
 const toFilter = ref(false);
@@ -147,7 +147,7 @@ async function storeItem() {
 
     if (mode.value === 'edit') {
       const {result} = await $fetch('/api/admin/gallery/edit', {
-        method: 'POST',
+        method: 'PUT',
         body: formData,
       })
       const ind = data.value.gallery.findIndex(item => item.id === result.id);
@@ -199,7 +199,7 @@ async function removeItem(dbId) {
       $showToast('Обработка...', 'info', 2000);
 
       const {id} = await $fetch('/api/admin/gallery/remove', {
-        method: 'POST',
+        method: 'DELETE',
         body: formData,
       })
 

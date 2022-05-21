@@ -1,5 +1,5 @@
 <template>
-  <section class="cont pb-2">
+  <section class="cont pb-2" style="min-height: 41vh">
     <h2>Турниры</h2>
 
     <TheTable>

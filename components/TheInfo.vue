@@ -1,5 +1,7 @@
 <template>
   <section id="info">
+    <div data-aos="zoom-in"
+         data-aos-anchor-placement="top-center">
     <h2 class="mb-3">Бильярд</h2>
     <div class="info-content">
       <div v-for="hall in info.halls" class="info-card">
@@ -18,6 +20,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
 
   </section>

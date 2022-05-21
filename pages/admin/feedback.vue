@@ -140,7 +140,7 @@ useMeta({
 })
 
 
-const {data, error} = await useAsyncData('adminFeedback', () => $fetch('/api/admin/feedback/index'));
+const {data, error} = await useAsyncData('adminFeedback', () => $fetch('/api/admin/feedback'));
 
 const filtering = ref([]);
 const toFilter = ref(false);
@@ -193,7 +193,7 @@ async function storeItem() {
 
     if (mode.value === 'edit') {
       const {result} = await $fetch('/api/admin/feedback/edit', {
-        method: 'POST',
+        method: 'PUT',
         body: formData,
       })
       const ind = data.value.feedback.findIndex(item => item.id === result.id);
@@ -246,7 +246,7 @@ async function removeItem(dbId) {
       $showToast('Обработка...', 'info', 2000);
 
       const {id} = await $fetch('/api/admin/feedback/remove', {
-        method: 'POST',
+        method: 'DELETE',
         body: formData,
       })
 

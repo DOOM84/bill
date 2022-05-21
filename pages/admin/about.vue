@@ -44,11 +44,6 @@
 
 
     <div class="right mt-2 mr-2 admin-opts">
-
-<!--      <div>
-        <label for="status" class="admin-status">Опубликовано</label>
-        <input type="checkbox" v-model="infoToUpdate.status" id="status">
-      </div>-->
       <button
           type="button"
           class="button btn-dark"
@@ -87,15 +82,14 @@ const infoToUpdate = ref({
   }
 });
 
-const {data, error} = await useAsyncData('adminAbout', () => $fetch('/api/admin/about/index'));
+const {data, error} = await useAsyncData('adminAbout', () => $fetch('/api/admin/about'));
 
-const finalEdit = ref(false);
+//const finalEdit = ref(false);
 
 
 if(data.value.about){
   infoToUpdate.value = {...data.value.about}
 }
-
 
 
 async function storeItem() {

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30e0049c-69e3-4965-a078-f132e01b7fcd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/server/api/admin/gallery/edit.put.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/table.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TheFeedback.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TheFeedback.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TheGallery.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TheGallery.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TheInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TheInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TheMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TheMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/bill-2648a-firebase-adminsdk-nhlmk-b2113d9718.json" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/bill-2648a-firebase-adminsdk-nhlmk-b2113d9718.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/dbConn.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/dbConn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/gallery.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/gallery.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/menu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tournaments.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tournaments.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gallery.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/gallery.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/routeGuard.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/routeGuard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483716040951hn0o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483724445991h1zn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483745693061heqg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483751139531hvvx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483764337061gu2l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483788894991i9ui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483789596911i2k4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/16483802152321go9b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/feedback/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/feedback/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/feedback/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/feedback/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/gallery/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/gallery/add.post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/gallery/edit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/gallery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/gallery/index.get.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/gallery/remove.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/gallery/remove.delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/menu/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/menu/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/admin/menu/edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/admin/menu/edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/api/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/guard.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/guard.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29Q6hv8Yp7MILrC4iS4Xp5HbDpF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/nuxt3-bill-app/helpers&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/267/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helpers" />
+      <recent name="$PROJECT_DIR$/plugins" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30e0049c-69e3-4965-a078-f132e01b7fcd" name="Changes" comment="" />
+      <created>1653033084619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653033084619</updated>
+      <workItem from="1653033086739" duration="30916000" />
+      <workItem from="1653073193182" duration="4914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

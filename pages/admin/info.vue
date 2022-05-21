@@ -85,45 +85,6 @@
         </template>
       </AdminDtable>
     </ClientOnly>
-
-<!--    <div class="form-group left">
-      <label for="text">Текст</label>
-      <input type="text" v-model.trim="infoToUpdate.text" class="form-control " id="text">
-    </div>
-
-
-    <template v-for="(hall, i) in infoToUpdate.halls">
-    <div class="form-group left mt-3">
-      <label :for="'hall-'+i"><strong>{{hall.hall}}</strong></label>
-      <input type="text" v-model.trim="hall.hall" class="form-control " :id="'hall-'+i">
-    </div>
-
-      <div v-for="(period, i) in hall.periods">
-        <div class="form-group left mt-2">
-          <label :for="'period-'+i">Период</label>
-          <input type="text" v-model.trim="period.time" class="form-control " :id="'period-'+i">
-        </div>
-
-        <div class="form-group left">
-          <label :for="'pyramid-'+i">Пирамида</label>
-          <input type="text" v-model.trim="period.pyramid" class="form-control " :id="'pyramid-'+i">
-        </div>
-
-        <div class="form-group left">
-          <label :for="'pool-'+i">Pool</label>
-          <input type="text" v-model.trim="period.pool" class="form-control " :id="'pool-'+i">
-        </div>
-      </div>
-    </template>
-
-    <div class="right mt-2 mr-2 admin-opts">
-      <button
-          type="button"
-          class="button btn-dark"
-          @click.prevent="storeItem">
-        Сохранить
-      </button>
-    </div>-->
   </main>
 </template>
 
@@ -140,7 +101,7 @@ useMeta({
   title: 'Панель управления - Информация'
 })
 
-const {data, error} = await useAsyncData('adminAbout', () => $fetch('/api/admin/info/index'));
+const {data, error} = await useAsyncData('adminInfo', () => $fetch('/api/admin/info'));
 
 const filtering = ref([]);
 

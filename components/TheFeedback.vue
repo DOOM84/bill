@@ -1,5 +1,6 @@
 <template>
   <section id="feedback">
+    <div data-aos="zoom-in">
     <h2>Отзывы</h2>
     <p>Наших гостей</p>
     <div class="info-content">
@@ -36,7 +37,7 @@
         </vueper-slide>
 
       </vueper-slides>
-
+    </div>
     </div>
     </div>
   </section>

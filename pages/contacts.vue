@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section style="min-height: 41vh">
     <h2 class="center">Контакты</h2>
     <div class="contact-box">
       <div class="contact-item">
