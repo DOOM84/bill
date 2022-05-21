@@ -1,5 +1,5 @@
 import fs from "fs";
-//import sharp from "sharp";
+import sharp from "sharp";
 import prepareFileInfo from "~/helpers/upload/prepareFileInfo";
 
 export default (file, defaultPath, image = null) => {
